@@ -10,12 +10,12 @@ export default function Welcome() {
                 <link rel="preconnect" href="https://fonts.bunny.net" />
                 <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
             </Head>
-            <div className="flex min-h-screen flex-col items-center bg-[#FDFDFC] p-6 text-[#1b1b18] lg:justify-center lg:p-8 dark:bg-[#0a0a0a]">
-                <div className="min-h-[400px] flex flex-col w-full items-center justify-center gap-y-10">
+            <div className="flex min-h-screen flex-col items-center bg-[#FDFDFC] p-6 text-[#1b1b18] justify-center lg:p-8 dark:bg-[#0a0a0a]">
+                <div className="flex flex-col w-full items-center justify-center gap-y-10">
                     <p
-                        className="text-transparent bg-clip-text font-bold text-7xl bg-gradient-to-r from-neutral-800 via-neutral-200 to-neutral-800 dark:from-neutral-200 dark:via-neutral-800 dark:to-neutral-200 animate-shine"
+                        className="text-center text-transparent bg-clip-text font-bold text-7xl bg-gradient-to-r from-neutral-800 via-neutral-200 to-neutral-800 dark:from-neutral-200 dark:via-neutral-800 dark:to-neutral-200 animate-shine"
                     >
-                        Start easily with security
+                        Get started easily with security
                     </p>
                     <nav className="flex items-center justify-end gap-4">
                         {auth.user ? (
