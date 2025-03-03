@@ -20,10 +20,14 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id' => 2,
-                'title' => 'user_edit',
+                'title' => 'user_read',
             ],
             [
                 'id' => 3,
+                'title' => 'user_update',
+            ],
+            [
+                'id' => 4,
                 'title' => 'user_destroy',
             ],
         ];

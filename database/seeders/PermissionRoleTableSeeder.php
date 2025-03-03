@@ -13,7 +13,7 @@ class PermissionRoleTableSeeder extends Seeder
      */
     public function run(): void
     {
-        Role::findOrFail(1)->permissions()->sync([1, 2, 3]);
+        Role::findOrFail(1)->permissions()->sync([1, 2, 3, 4]);
         Role::findOrFail(2)->permissions()->sync([1]);
     }
 }
